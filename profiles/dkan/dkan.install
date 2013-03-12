@@ -26,8 +26,8 @@ function dkan_install() {
  * Implements hook_install_tasks()
  */
 function dkan_install_tasks() {
-  // Kick off the tasks.
   $tasks = array();
+  // TODO: Move these to .profile
   $tasks['dkan_additional_setup'] = array(
     'display_name' => 'Cleanup',
   );
@@ -36,6 +36,9 @@ function dkan_install_tasks() {
   );
   $tasks['dkan_bueditor_settings'] = array(
     'display_name' => 'BUEditor Settings',
+  );
+  $tasks['dkan_rdf_settings'] = array(
+    'display_name' => 'RDF Settings',
   );
   return $tasks;
 }
@@ -87,4 +90,18 @@ function dkan_bueditor_settings() {
     'eid' => 5,
   );
   drupal_write_record('bueditor_editors', $data, array('eid'));
+}
+
+/**
+ * RDFx imports new vocabs on a normal site. We are skipping that step.
+ */
+function dkan_rdf_settings() {
+  require_once('import/rdf.php');
+  include_once libraries_get_path('ARC2') . 'libraries/arc/ARC2.php';
+  module_load_include('inc', 'rdfx', 'rdfx.terms');
+  rdfx_save_terms('http://www.w3.org/ns/dcat#', 'dcat', $dcat);
+  rdfx_save_terms('http://purl.org/dc/terms/', 'dc', $dc);
+
+  // Refresh the static variable that holds the array of namespaces.
+  drupal_static_reset('rdfx_get_namespaces');
 }

@@ -1,0 +1,118 @@
+body {
+  background-color: rgb(156, 54, 54);
+}
+.node-type-group .node-form label {
+  float: none;
+}
+#zone-branding-wrapper {
+  background-color: #005974;
+  background-image: -moz-linear-gradient(top, rgb(162, 4, 4), rgb(156, 54, 54));
+  background-image: -ms-linear-gradient(top, rgb(162, 4, 4), rgb(156, 54, 54));
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(162, 4, 4)), to(rgb(156, 54, 54)));
+  background-image: -webkit-linear-gradient(top, rgb(162, 4, 4), rgb(156, 54, 54));
+  background-image: -o-linear-gradient(top, rgb(162, 4, 4), rgb(156, 54, 54));
+  background-image: linear-gradient(top, rgb(162, 4, 4), rgb(156, 54, 54));
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#005d7a', endColorstr='#00536b', GradientType=0);
+  color: white;
+}
+h3.media-heading a {
+  background-color: rgb(162, 4, 4);
+}
+#section-footer {
+  background-image: -moz-linear-gradient(top, rgb(162, 4, 4), rgb(156, 54, 54));
+  background-image: -ms-linear-gradient(top, rgb(162, 4, 4), rgb(156, 54, 54));
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(162, 4, 4)), to(rgb(156, 54, 54)));
+  background-image: -webkit-linear-gradient(top, rgb(162, 4, 4), rgb(156, 54, 54));
+  background-image: -o-linear-gradient(top, rgb(162, 4, 4), rgb(156, 54, 54));
+  background-image: linear-gradient(top, rgb(162, 4, 4), rgb(156, 54, 54));
+}
+.front #zone-menu-wrapper {
+  padding: 15px 0 0 0;
+}
+#block-dkan-sitewide-dkan-sitewide-user-menu {
+  position: absolute;
+  width: 50px;
+  padding: 0px 0 0 20px;
+  right: 16px;
+  top: 15px;
+}
+#zone-branding-wrapper {
+  background-color: #005974;
+  background-image: -moz-linear-gradient(top, rgb(162, 4, 4), rgb(156, 54, 54));
+  background-image: -ms-linear-gradient(top, rgb(162, 4, 4), rgb(156, 54, 54));
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(162, 4, 4)), to(rgb(156, 54, 54)));
+  background-image: -webkit-linear-gradient(top, rgb(162, 4, 4), rgb(156, 54, 54));
+  background-image: -o-linear-gradient(top, rgb(162, 4, 4), rgb(156, 54, 54));
+  background-image: linear-gradient(top, rgb(162, 4, 4), rgb(156, 54, 54));
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgb(162, 4, 4)', endColorstr='rgb(156, 54, 54)', GradientType=0);
+  color: white;
+  padding: 5px 10px 8px;
+  height: 52px;
+}
+body #zone-content div#toolbar {
+  position: relative;
+  top: auto;
+}
+#block-dkan-sitewide-dkan-sitewide-user-menu {
+  position: absolute;
+  width: 50px;
+  padding: 15px 0 0 20px;
+  right: 16px;
+  top: 0px;
+}
+.front #section-content {
+  background: url("../images/data_wisc_back.png") no-repeat;
+  background-size: cover;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/header_bg_1920.png',sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/header_bg_1920.png',sizingMethod='scale')";
+  -webkit-box-shadow: 0px 2px 6px 1px rgba(0,0,0,0.4);
+  box-shadow: 0px 2px 6px 1px rgba(0,0,0,0.4);
+  overflow: hidden;
+  min-height: 500px;
+  margin-top: -7px;
+}
+.front #block-system-main {
+  margin: 50px 0 0 0;
+  background-color: rgba(1000,1000,1000,.8);
+}
+.node h2 {
+  font-size: 24px;
+  line-height: 36px;
+  padding: 7px 0 7px 0;
+  color: rgb(129, 9, 9);
+}
+h1 {
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 15px;
+  color: #333;
+}
+a:link, a:visited {
+  color: rgb(167, 9, 9);
+}
+p {
+  margin: 0 0 9px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+li .icon-large[class^="icon-"], li .icon-large[class*=" icon-"] {
+  width: 1.175em;
+  background-image: none;
+  line-height: 18px;
+  color: #555;
+}
+h2.site-name {
+  font-size: 36px;
+  padding: 0;
+  margin-top: 17px;
+}
+.container-12 .grid-12 {
+  min-width: 100%;
+}

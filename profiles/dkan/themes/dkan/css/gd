@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(156, 54, 54);
+}
+#zone-branding-wrapper {
+  background-color: #005974;
+  background-image: -moz-linear-gradient(top, rgb(162, 4, 4), rgb(156, 54, 54));
+  background-image: -ms-linear-gradient(top, rgb(162, 4, 4), rgb(156, 54, 54));
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(162, 4, 4)), to(rgb(156, 54, 54)));
+  background-image: -webkit-linear-gradient(top, rgb(162, 4, 4), rgb(156, 54, 54));
+  background-image: -o-linear-gradient(top, rgb(162, 4, 4), rgb(156, 54, 54));
+  background-image: linear-gradient(top, rgb(162, 4, 4), rgb(156, 54, 54));
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#005d7a', endColorstr='#00536b', GradientType=0);
+  color: white;
+}
+h3.media-heading a {
+  background-color: rgb(162, 4, 4);
+}
+#section-footer {
+  background-image: -moz-linear-gradient(top, rgb(162, 4, 4), rgb(156, 54, 54));
+  background-image: -ms-linear-gradient(top, rgb(162, 4, 4), rgb(156, 54, 54));
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(162, 4, 4)), to(rgb(156, 54, 54)));
+  background-image: -webkit-linear-gradient(top, rgb(162, 4, 4), rgb(156, 54, 54));
+  background-image: -o-linear-gradient(top, rgb(162, 4, 4), rgb(156, 54, 54));
+  background-image: linear-gradient(top, rgb(162, 4, 4), rgb(156, 54, 54));
+
+.front #zone-menu-wrapper {
+padding: 15px 0 0 0;
+}
+#block-dkan-sitewide-dkan-sitewide-user-menu {
+position: absolute;
+width: 50px;
+padding: 0px 0 0 20px;
+right: 16px;
+top: 15px;
+}
+#zone-branding-wrapper {
+background-color: #005974;
+background-image: -moz-linear-gradient(top, rgb(162, 4, 4), rgb(156, 54, 54));
+background-image: -ms-linear-gradient(top, rgb(162, 4, 4), rgb(156, 54, 54));
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(162, 4, 4)), to(rgb(156, 54, 54)));
+background-image: -webkit-linear-gradient(top, rgb(162, 4, 4), rgb(156, 54, 54));
+background-image: -o-linear-gradient(top, rgb(162, 4, 4), rgb(156, 54, 54));
+background-image: linear-gradient(top, rgb(162, 4, 4), rgb(156, 54, 54));
+background-repeat: repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgb(162, 4, 4)', endColorstr='rgb(156, 54, 54)', GradientType=0);
+color: white;
+padding: 5px 10px 8px;
+height: 52px;
+}
+body {
+margin: 0;
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 13px;
+line-height: 18px;
+color: #4D4D4D;
+background-color: rgb(156, 54, 54);
+}
+body #zone-content div#toolbar {
+position: relative;
+top: auto;
+}

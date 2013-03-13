@@ -399,7 +399,7 @@ function entity_get_uuid_by_id($entity_type, $ids, $revision = FALSE) {
   }
   $info = entity_get_info($entity_type);
   // Find out what entity keys to use.
-  if (!$revision) {
+  if (!$revision && isset($info['entity keys']['uuid'])) {
     $table = $info['base table'];
     $id_key = $info['entity keys']['id'];
     $uuid_key = $info['entity keys']['uuid'];
